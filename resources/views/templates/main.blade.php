@@ -11,10 +11,9 @@ scale=1.0">
 </head>
 
 <body>
-    
     <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
         <div class="container">
-            <a href="/user" class="navbar-brand mb-0 h1"><i class="bi-hexagon-fill me-2"></i> My Things</a>
+            <a href="/home" class="navbar-brand mb-0 h1"><i class="bi-hexagon-fill me-2"></i> My Things</a>
             <button type="button" class="navbar-toggler" data-bs- toggle="collapse"
                 data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>

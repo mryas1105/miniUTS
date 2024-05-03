@@ -13,6 +13,11 @@
                         placeholder="Masukan nama" value="{{ old('nama') }}" required>
                 </div>
                 <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Kode</label>
+                    <input type="text" name="kode" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Masukan kode" value="{{ old('kode') }}" required>
+                </div>
+                <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Satuan</label>
                     <select class="form-select" name="satuan_barang" aria-label="Satuan" required>
                         <option selected>Pilih satuan</option>
@@ -22,11 +27,6 @@
                         @endforeach
                     </select>
                 </div>
-                {{-- <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Harga</label>
-                    <input type="text" name="harga" class="form-control" id="exampleFormControlInput1"
-                        placeholder="Masukan harga" required>
-                </div> --}}
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Harga</label>
                     <div class="input-group">

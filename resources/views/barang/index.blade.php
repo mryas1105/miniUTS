@@ -2,7 +2,6 @@
 @section('container')
     <div class="container mt-5">
 
-
         @if (session('success'))
             <div id="alert-panel" class="alert alert-success alert-dismissible fade show" role="alert">
                 {{ session('success') }}
@@ -40,11 +39,12 @@
         <!-- Table -->
         <div class="row">
             <div class="col-md-8 offset-md-2">
-                <table class="table">
+                <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
                             <th>Id</th>
                             <th>Nama</th>
+                            <th>Kode</th>
                             <th>Satuan</th>
                             <th>Harga</th>
                             <th>Actions</th>
@@ -55,6 +55,7 @@
                             <tr>
                                 <td>{{ $barang->id }}</td>
                                 <td>{{ $barang->nama }}</td>
+                                <td>{{ $barang->kode }}</td>
                                 <td>{{ $barang->satuan->nama }}</td>
                                 <td>{{ $barang->harga }}</td>
                                 <td>

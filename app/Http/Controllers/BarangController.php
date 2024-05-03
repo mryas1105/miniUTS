@@ -55,6 +55,7 @@ class BarangController extends Controller
     {
         $validatedData = $request->validate([
             'nama' => 'required|string',
+            'kode' => 'required|string|unique:barangs',
             'satuan_barang' => 'required|string',
             'harga' => 'required|numeric',
             'deskripsi' => 'required|string'
@@ -63,6 +64,7 @@ class BarangController extends Controller
         // dd($validatedData);
         $barang = Barang::create([
             'nama' => $validatedData['nama'],
+            'kode' => $validatedData['kode'],
             'satuan_barang' => $validatedData['satuan_barang'],
             'harga' => $validatedData['harga'],
             'deskripsi' => $validatedData['deskripsi']
@@ -103,6 +105,7 @@ class BarangController extends Controller
     {
         $validatedData = $request->validate([
             'nama' => 'required|string',
+            'kode' => 'required|string|unique:barangs,kode,' . $barang->id,
             'satuan_barang' => 'required',
             'harga' => 'required|numeric',
             'deskripsi' => 'required|string'

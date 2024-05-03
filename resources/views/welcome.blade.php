@@ -13,8 +13,8 @@ scale=1.0">
 <body>
     <div class="container mt-5">
         <div class="jumbotron">
-            <h1 class="display-4">Selamat Datang di Project UTS | Framework</h1>
-            <p class="lead">Project ini adalah tugas Ujian Tengah Semester untuk mata kuliah Framework. Silakan
+            <h1 class="display-4">Selamat Datang di Project UTS | My Things</h1>
+            <p class="lead">Project ini adalah tugas Ujian Tengah Semester untuk mata kuliah My Things. Silakan
                 jelajahi dan gunakan aplikasi ini sesuai kebutuhan Anda.</p>
             <hr class="my-4">
             <p>Untuk memulai, Anda dapat klik lanjutkan.</p>

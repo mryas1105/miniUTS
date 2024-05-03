@@ -23,16 +23,20 @@ class DatabaseSeeder extends Seeder
 
         Satuan::create([
             'nama' => 'pcs',
+            'kode' => '001'
         ]);
         Satuan::create([
             'nama' => 'pak',
+            'kode' => '002'
         ]);
         Satuan::create([
             'nama' => 'dus',
+            'kode' => '003'
         ]);
 
         Barang::create([
             'nama' => 'Aqua 600 ML',
+            'kode' => 'F31',
             'harga' => '3000',
             'deskripsi' => 'Air minum kemasan praktis dalam botol 600ml dari Aqua. Ideal untuk kebutuhan hidrasi sehari-hari di mana pun Anda berada.',
             'satuan_barang' => 1

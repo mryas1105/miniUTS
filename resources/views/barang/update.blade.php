@@ -15,6 +15,11 @@
                         id="exampleFormControlInput1" placeholder="Masukan nama" required>
                 </div>
                 <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Kode</label>
+                    <input type="text" name="kode" value="{{ $barang->kode }}" class="form-control"
+                        id="exampleFormControlInput1" placeholder="Masukan kode" required>
+                </div>
+                <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Satuan</label>
                     <select class="form-select" name="satuan_barang" aria-label="Satuan" required>
                         <option selected>Pilih satuan</option>
